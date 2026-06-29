@@ -1,0 +1,33 @@
+canonical_identifier: bkk:krp/KR2p0144/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR2p0144/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 日書乙種
+  identifiers:
+    krp: KR2p0144
+  tags:
+    kr-categories: KR2p
+  source:
+    repository: tls-texts
+    path: data/tls/KR2p0144.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR2p0144_001-CHANT.yaml, hash: 'sha256:8d1cb26d676b1f00e9b19865a4793a47d124b427991f7c228a65aa748ab9ad70'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR2p0144_001-CHANT.markers.yaml, hash: 'sha256:1db4280aa7cf029a9ea9e76767b983032de03b8f500618c0ee52dd49b88595fb'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR2p0144_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 6116
+  label: 睡虎地秦墓竹簡日書乙種
+  type: section
+  level: 1
+hash: sha256:a4bf3e5c6ef5bc6fed14fc6c9a6104506daa35e8723b7d9c0daf89a186d34724
